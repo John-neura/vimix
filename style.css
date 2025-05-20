@@ -59,3 +59,19 @@ html,body{
     
     
 }
+#videos {
+    display: flex;
+    flex-direction: column; /* Una columna */
+    gap: 20px; /* Espacio entre los videos */
+    align-items: center; /* Centrar horizontalmente */
+    padding: 20px;
+
+  }
+  
+  /* Estilo para los iframes (videos) */
+  #videos iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: -50%;
+  }
+ 
