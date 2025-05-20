@@ -74,4 +74,30 @@ html,body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-left: -50%;
   }
+
+@media screen and (max-width: 768px) {
+    .formulario {
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .input {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .boton {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .entrada {
+        margin-left: 0;
+    }
+
+    #videos iframe {
+        width: 100%;
+        height: auto;
+    }
+}
  
