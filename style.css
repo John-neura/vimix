@@ -24,7 +24,7 @@ html,body{
     flex-direction: column;
 
     background-color: #FF5722;
-    height: 800px;
+    min-height: 100vh;
     padding: 20px;
 }
 .subtitulo{
