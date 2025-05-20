@@ -1,0 +1,61 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+.cerrar-formulario {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+  }
+  .formulario{
+  position: relative;
+  padding-top: 2px;
+  margin-right: 42%;
+
+  }
+.main{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #FF5722;
+    height: 800px;
+    padding: 20px;
+}
+.subtitulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    padding: 10px;
+    background-color: #fff;
+    width: 20%;
+   
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-left: 47%;
+    padding: 10px;
+    background-color: #fff;
+    width: 8%;
+    border-radius: 10%;
+    background-color: #fff;
+
+}
+.entrada{
+    margin-left: 40%;
+    
+    
+}

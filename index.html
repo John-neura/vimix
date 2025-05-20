@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    </head>
+<body>
+     <header>
+        <button id="btnAdmin">Administrador</button>
+      </header>
+      
+      <main class="main">
+        <!-- Formulario de login oculto al inicio -->
+        <form id="form_admin" style="display: none;" class="formulario">
+        <h2 class="subtitulo">!Esto es solo para administrador o personas autorizadas¡</h2>
+        <button type="button" id="cerrar_admin" class="cerrar-formulario">✖</button>
+          <input type="email" name="correo" placeholder="Ingrese su correo" class="input">
+          <input type="password" name="clave" placeholder="Ingrese su contraseña" class="input">
+          <button type="submit" class="boton">Entrar</button>
+        </form>
+      
+        <!-- Formulario de videos oculto hasta validar -->
+        <form id="formulario" style="display: none;">
+          <input type="text" id="videoUrl" placeholder="Ingresa URL del video" class="input">
+          <button type="submit" class="boton">Enviar</button>
+        </form>
+      
+        <div id="videos" class="entrada"></div>
+      </main>
+      
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
