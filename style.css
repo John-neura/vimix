@@ -97,7 +97,7 @@ html,body{
 
     #videos iframe {
         width: 100%;
-        height: auto;
+        height: 500px;
     }
 }
  
